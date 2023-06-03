@@ -24,7 +24,7 @@ const Navbar = () => {
     },
     
   ];
-  return (
+  return(
     
     
     <div className="flex justify-between items-center w-full h-20 text-white fixed bg-pink-500 ">
