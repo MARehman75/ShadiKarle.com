@@ -24,7 +24,7 @@ const Navbar = () => {
     
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 text-white fixed bg-pink-500 ">
+    <div className="flex justify-between items-center w-full h-20 text-white bg-pink-500 ">
       <div className="w-[11rem] mt-3 h-9 ml-6">
         <img src="./images/logo.png" alt="portfolio" />
       </div>
