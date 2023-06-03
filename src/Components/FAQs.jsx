@@ -16,11 +16,11 @@ const FAQs = () => {
 
     return (
         <>
-            <div style={{margin: '80px 30px'}}>
+            <div style={{margin: '100px'}}>
                 <h1 style={styles.accordionHeader}>Frequently asked questions</h1>
                 <p style={styles.accordianBody}>Need help? We've got you covered.</p>
             </div>
-            <div style={{margin: '30px'}}>
+            <div style={{margin: '100px'}}>
                 <Accordion defaultActiveKey={['0']} alwaysOpen>
                     <Accordion.Item eventKey="0" className='my-4'>
                         <Accordion.Header><p style={styles.accordionHeader}>What is ShadiKarle.com?</p></Accordion.Header>

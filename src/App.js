@@ -1,3 +1,6 @@
+
+// import Contact from "./Components/Contact";
+import ContactForm from "./Components/ContactUs";
 import Home from "./Components/Home"
 import FAQs from "./Components/FAQs";
 import AppFooter from "./Components/Footer";
@@ -8,6 +11,7 @@ function App() {
     <>
     <Navbar/>
     <Home/>
+    <ContactForm/>
     <AboutUs/>
     <FAQs/>
     <AppFooter/>
