@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -24,8 +25,10 @@ const Navbar = () => {
     
   ];
   return (
+    
+    
     <div className="flex justify-between items-center w-full h-20 text-white fixed bg-pink-500 ">
-      <div className="w-[11rem] mt-3 h-9 ml-6">
+      <div className="w-[11rem] mt-1 h-9 ml-6">
         <img src="./images/logo.png" alt="portfolio" />
       </div>
       <ul className="hidden md:flex">
@@ -56,8 +59,10 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        
       )}
     </div>
+    
   );
 };
 
